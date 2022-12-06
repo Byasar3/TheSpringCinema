@@ -17,7 +17,6 @@ public class Movie {
     public Movie(){}
 
     //getters n setters
-
     public String getTitle() {
         return title;
     }

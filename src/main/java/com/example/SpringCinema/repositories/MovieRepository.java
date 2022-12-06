@@ -1,4 +1,4 @@
 package com.example.SpringCinema.repositories;
 
-public class MovieRepository {
+public interface MovieRepository {
 }

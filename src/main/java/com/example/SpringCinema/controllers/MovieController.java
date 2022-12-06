@@ -1,5 +1,8 @@
 package com.example.SpringCinema.controllers;
 
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
 
 public class MovieController {
 

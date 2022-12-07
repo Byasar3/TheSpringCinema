@@ -1,5 +1,7 @@
 package com.example.SpringCinema.models;
 
+import java.util.ArrayList;
+
 public class Movie {
 
     // id set by sql, no need to code for any ids?
@@ -15,6 +17,7 @@ public class Movie {
 
     //empty constructor
     public Movie(){}
+
 
     //getters n setters
     public String getTitle() {

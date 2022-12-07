@@ -1,4 +1,7 @@
 package com.example.SpringCinema.repositories;
 
-public interface MovieRepository {
+import com.example.SpringCinema.models.Movie;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface MovieRepository extends JpaRepository<Movie, Integer> {
 }
